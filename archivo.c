@@ -27,7 +27,7 @@ int main(){
             scanf("%i", &num2);
         }
 
-        int array[5] = {};
+        int array[5] = {NULL};
         int n = 5;
 
         for(int i = 0; i < n; i++){
