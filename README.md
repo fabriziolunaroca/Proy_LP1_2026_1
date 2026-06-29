@@ -1,20 +1,30 @@
 # 🗂️ Proyecto Prometeus — Sistema de Archivos Virtual en Memoria
- 
+
 > Un mini sistema de archivos jerárquico construido desde cero en **C**, con autenticación de usuarios, control de permisos por rol y persistencia en disco.
- 
+
 [![Lenguaje](https://img.shields.io/badge/Lenguaje-C11-blue.svg)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
 [![Build](https://img.shields.io/badge/Build-Makefile-orange.svg)](#-compilación-y-ejecución)
 [![Plataforma](https://img.shields.io/badge/Plataforma-Windows%20%7C%20Linux-lightgrey.svg)](#-compilación-y-ejecución)
 [![Estado](https://img.shields.io/badge/Estado-Funcional-brightgreen.svg)](#)
- 
+
 ---
- 
+
 ## 📖 Descripción
- 
+
 **Proyecto Prometeus** simula, a nivel de software, el comportamiento de un sistema de archivos real: permite **crear, leer, escribir, listar y eliminar** archivos y directorios, todo organizado en una **estructura de árbol** que vive completamente en memoria durante la ejecución.
- 
+
 El proyecto va más allá de un simple ejercicio de árboles en C: incorpora una capa de **autenticación**, un esquema de **roles y permisos** (administrador / usuario común) y un mecanismo de **persistencia binaria**, de modo que el estado del sistema de archivos y los usuarios registrados se conservan entre una ejecución y otra.
- 
+
+---
+
+## 🖼️ Vista previa
+
+<p align="center">
+  <img src="Proyecto_Prometeus_fw_default_interfaz/assets/visor.png" alt="Visor Prometeus — Interfaz gráfica" width="780"/>
+</p>
+
+> El **Visor Prometeus** muestra en tiempo real el árbol de directorios y el contenido de los archivos, sincronizándose automáticamente con el sistema en C a través de `data/snapshot.txt`.
+
 ---
  
 ## ✨ Características principales
