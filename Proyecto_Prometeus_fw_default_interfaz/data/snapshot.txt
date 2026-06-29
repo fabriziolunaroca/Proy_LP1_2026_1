@@ -1,0 +1,15 @@
+D|0|/
+D|1|papeleria
+D|1|user
+D|2|fabrizio
+D|3|documentos
+F|3|notas.txt|10
+Hola mundo
+~~~
+D|3|tareas
+F|3|pendientes.txt|32
+Entregar proyecto LP1 el viernes
+~~~
+F|3|completados.txt|28
+Implementar snapshot - LISTO
+~~~
